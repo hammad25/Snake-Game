@@ -5,6 +5,11 @@
     padding: 0;
 }
 
+.background{
+    background-color:black; 
+}
+
+
 .logo {
     width: 200px;
     margin: 0 auto;
@@ -27,7 +32,7 @@
 .btn--big {
     border-radius: 100%;
     background-color: white;
-    border: 3px solid rgb(0, 29, 0);
+    border: 3px solid rgb(255, 255, 255);
     ;
     width: 50px;
     height: 50px;
@@ -41,7 +46,7 @@
 .levels {
     height: 43px;
     border-radius: 10%;
-    border: 2px solid rgb(0, 29, 0);
+    border: 2px solid rgb(255, 255, 255);
     width: 105px;
     text-align: center;
     font-size: 1.5rem;
@@ -54,7 +59,7 @@
 .button {
     height: 43px;
     border-radius: 10%;
-    border: 2px solid rgb(0, 29, 0);
+    border: 2px solid rgb(255, 255, 255);
     ;
     width: 105px;
     text-align: center;
@@ -68,10 +73,12 @@
 .score {
     padding-top: 19px;
     font-size: 1.5rem;
+    color: white;
 }
 
 .body {
-    background: url("../images/bg.jpg");
+    background: url("../images/snake-background.jpeg");
+    background-size: cover;
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
     min-height: 100vh;
@@ -80,12 +87,12 @@
     align-items: center;
 }
 
-#board{
-    background: linear-gradient(rgb(36, 158, 71), rgb(11, 71, 34));
+#board {
+    background: linear-gradient(rgb(36, 158, 71), rgb(148, 230, 100));
     width: 90vmin;
     height: 92vmin;
     border: solid black;
     display: grid;
     grid-template-columns: repeat(18, 1fr);
     grid-template-rows: repeat(18, 1fr);
-  }
+}

@@ -20,32 +20,38 @@
 </head>
 
 <body>
-  <div class="logo">
-    <img class="logo" src="/assests/images/Snakegame-logo.png" alt="Snake game logo">
-  </div>
-
-  <div class="menu">
-
-    <div class="instructions"><button class="btn btn--big">
-        <i class="fas fa-info-circle"></i>
-      </button></div>
-
-    <div class="level">
-      <select class="levels">
-        <option>Easy</option>
-        <option>Medium </option>
-        <option>Hard</option>
-      </select>
-      <input class="button" type="button" value="Start">
+  <div class="background"> 
+    <div class="logo">
+      <img class="logo" src="/assests/images/snake-game-logo.png" alt="Snake game logo">
     </div>
 
-    <div class="score">Score:0</div>
+    <div class="menu">
+
+      <div class="instructions"><button class="btn btn--big">
+          <i class="fas fa-info-circle"></i>
+        </button></div>
+
+      <div class="level">
+        <select class="levels">
+          <option>Easy</option>
+          <option>Medium </option>
+          <option>Hard</option>
+        </select>
+        <input class="button" type="button" value="Start">
+      </div>
+
+      <div class="score">Score:0</div>
+
+    </div>
 
   </div>
+
+
+
   <div class="body">
     <div id="board"></div>
   </div>
-  
+
 
   <script src="assests/js/script.js"></script>
 </body>
