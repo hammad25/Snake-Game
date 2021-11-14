@@ -1,21 +1,91 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300&display=swap');
+
+* {
     margin: 0;
     padding: 0;
 }
 
-.logo{
+.logo {
     width: 200px;
     margin: 0 auto;
 }
 
-.menu{
-    padding: 20px;
+.menu {
     width: fit-content;
     display: flex;
     margin: 0 auto;
     justify-content: space-between;
 }
 
-.level{
-    padding: 0 200px;
+.btn {
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    font-size: 1rem;
+    color: rgb(36, 158, 70);
 }
+
+.btn--big {
+    border-radius: 100%;
+    background-color: white;
+    border: 3px solid rgb(0, 29, 0);
+    ;
+    width: 50px;
+    height: 50px;
+    font-size: 2rem;
+}
+
+.level {
+    padding: 9px 150px;
+}
+
+.levels {
+    height: 43px;
+    border-radius: 10%;
+    border: 2px solid rgb(0, 29, 0);
+    width: 105px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 20px;
+    font-family: cormorant;
+    background-color: green;
+    color: white;
+}
+
+.button {
+    height: 43px;
+    border-radius: 10%;
+    border: 2px solid rgb(0, 29, 0);
+    ;
+    width: 105px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 20px;
+    font-family: cormorant;
+    background-color: green;
+    color: white;
+}
+
+.score {
+    padding-top: 19px;
+    font-size: 1.5rem;
+}
+
+.body {
+    background: url("../images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#board{
+    background: linear-gradient(rgb(36, 158, 71), rgb(11, 71, 34));
+    width: 90vmin;
+    height: 92vmin;
+    border: solid black;
+    display: grid;
+    grid-template-columns: repeat(18, 1fr);
+    grid-template-rows: repeat(18, 1fr);
+  }
